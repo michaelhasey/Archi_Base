@@ -13,24 +13,8 @@ In order to do this, Archi_base employs a 3-step pipeline that leverages sofisti
 As this process only requires the user to specify the target subject and amount, Archi_base works in a completely autonomous fashion and saves the user a huge amount of time and effort.  While a robust 100,000 image dataset would take 330 hours to create manually, Archi_base can complet this task in 16 hours.
 
 Currently, Archi_base is the fastest and easiest way to make custom, very large and robusy architectural imagery datasets for AI deep learning projects of any kind.
-
-
-## Included Notebooks
-
-1. 1_Training_Model.ipynb
-
-    - Resnet-32 (deep residual learning neural network for image recognition)
-    - FastAi architecture & backend
-    - PyTorch library
     
-2. 2_Scraper_Predictor_Model.ipynb
-
-    - instagram_scraper tool
-    - FastAi architecture & backend
-    - PyTorch library
-    - Smash Mouth - "All Star" auto-complete song
-    
-3. Data
+## Data
     
     - 2000 images of architectural related subjects
     
@@ -45,3 +29,18 @@ Currently, Archi_base is the fastest and easiest way to make custom, very large 
             - 200 books / posters images
             - 100 people images
             - 200 drawings / sketches images
+
+## Collab Notebooks
+
+1. 1_Training_Model.ipynb
+
+    - Resnet-32 (deep residual learning neural network for image recognition)
+    - FastAi architecture & backend
+    - PyTorch library
+    
+2. 2_Scraper_Predictor_Model.ipynb
+
+    - instagram_scraper tool
+    - FastAi architecture & backend
+    - PyTorch library
+    - Smash Mouth - "All Star" auto-complete song
