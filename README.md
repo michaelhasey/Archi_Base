@@ -16,19 +16,19 @@ Currently, Archi_base is the fastest and easiest way to make custom, very large 
     
 ## Data
     
-    - 2000 images of architectural related subjects
-    
-        - zaha hadid building images
-            - 300 street view images
-            - 300 interio view images
-            - 300 aerial view images
-            - 300 close-up view images
-            - 300 architectural texture images
-            
-        - miscellaneous images
-            - 200 books / posters images
-            - 100 people images
-            - 200 drawings / sketches images
+- 2000 images of architectural related subjects
+
+    - zaha hadid building images
+        - 300 street view images
+        - 300 interio view images
+        - 300 aerial view images
+        - 300 close-up view images
+        - 300 architectural texture images
+
+    - miscellaneous images
+        - 200 books / posters images
+        - 100 people images
+        - 200 drawings / sketches images
 
 ## Collab Notebooks
 
