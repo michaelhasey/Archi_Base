@@ -44,3 +44,8 @@ Currently, Archi_base is the fastest and easiest way to make custom, very large 
     - FastAi architecture & backend
     - PyTorch library
     - Smash Mouth - "All Star" auto-complete song
+    
+
+## Slideshow Presentation
+
+1. Archi_Base_Capstone_Hasey.pdf
