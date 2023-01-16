@@ -20,7 +20,7 @@ www.michaelhasey.com/archi_base
 <br>
 
 - [Background](#Background)
-- [Dataset](#Dataset)
+- [Pipeline](#Dataset)
 - [Model](#Model)
 - [Performance](#Performance)
 - [References](#References)
@@ -40,11 +40,19 @@ Archi-Base solves this problem by providing an online tool that autonomously fin
 
 ![](images/workflow.png)
 
-## Dataset
+## Pipeline
 
 <br>
 
-In order to detect villag burns, we trained an Object Detection Model on a custom dataset of 600 satellite images of Maasai villages compiled and augmented within Roboflow, a dataset builder application.  Our final training dataset contained images of villages in various states (burned, not burned, etc.) , landscapes (desert, grassland, etc.)  and contexts (dense, not dense, etc.), allowing our model to detect village burns in varying environments and locate instances of potential injustice.  In addition, we taught our model to identify villages, individual house counts within villages, and animal corrals.  
+ARCHI_BASE employs a 3-step pipeline that leverages sophisticated AI & ML computer vision technology.
+
+1. Train a ResNet Image classification model to identify specific architectural image types.
+2. User identifies what to search for and how many images required, and our system autonomously scrapes multiple online image databases.
+3. The ResNet-32 model classifies each scraped image, labels it and then places it into its corresponding folder.  
+
+Your Image database is now ready to train deep neural networks!
+
+"While a robust 100,000 image dataset would take 330 hours to create manually, Archi_base completes this task in just 16 hours."
 
 Using [labelImg](https://github.com/tzutalin/labelImg), we set bounding boxes around current and former Maasai architectures (villages, corrals, farms, burned villages) before augmenting with color, rotation, and random noise.  
 
