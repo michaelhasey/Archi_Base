@@ -26,6 +26,7 @@ www.michaelhasey.com/archi_base
 - [References](#References)
 - [Citation](#Citation)
 
+<br>
 
 ## Background
 
@@ -39,6 +40,8 @@ Archi-Base solves this problem by providing an online tool that autonomously fin
 <br>
 
 ![](images/workflow.png)
+
+<br>
 
 ## Pipeline
 
@@ -54,6 +57,8 @@ While a robust 100,000 image dataset would take 330 hours to create manually, Ar
 <br>
 
 ![](images/steps.png)
+
+<br>
 
 ## Model
 
