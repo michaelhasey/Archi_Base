@@ -148,8 +148,8 @@ See below to see performance based benchmarks comparing the time in which it tak
 
 <br>
 
-1. Yolo-V3 [https://github.com/eriklindernoren/PyTorch-YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3)
-2. labelImg[https://github.com/tzutalin/labelImg] (https://github.com/tzutalin/labelImg)
+1. ResNet-13 model [https://pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html)
+2. Instagram Scraper [https://sourceforge.net/projects/instagram-scraper.mirror/](https://sourceforge.net/projects/instagram-scraper.mirror/)
 
 ## Citation
 
@@ -159,7 +159,7 @@ If you find this project useful in your research, please consider citing:
 
 ``` 
 @misc{mhasey2021,
-    title={Maasai Skywatch},
+    title={Archi-Base},
     author={Michael Hasey},
     year={2020},
 }
