@@ -44,13 +44,12 @@ Archi-Base solves this problem by providing an online tool that autonomously fin
 
 <br>
 
-ARCHI_BASE employs a 3-step pipeline that leverages sophisticated AI & ML computer vision technology.
+Archi-Base uses a 2-step pipeline to create large architectural image datasets.
 
-1. Train a ResNet Image classification model to identify specific architectural image types.
-2. User identifies what to search for and how many images required, and our system autonomously scrapes multiple online image databases.
-3. The ResNet-32 model classifies each scraped image, labels it and then places it into its corresponding folder.  
+1. An image scraping tool that autonomously searches for and downloads user defined images from multiple online image databases.  Images can be of any building type, any building designed by a specific architect, or any buildings from a specific region. 
+2. A pre-trained ResNet-32 model which classifies, labels and sorts each scraped image into a corresponding folder.  
 
-Your Image database is now ready to train deep neural networks! While a robust 100,000 image dataset would take 330 hours to create manually, Archi_base completes this task in just 16 hours.
+While a robust 100,000 image dataset would take 330 hours to create manually, Archi_base completes this task in just 16 hours.
 
 <br>
 
@@ -58,7 +57,7 @@ Your Image database is now ready to train deep neural networks! While a robust 1
 
 ## Model
 
-In order to autonomously detect Maasai villages, home burnings, and other injustices from above, we used a sophisticated neural network algorithm called [Yolo-V3](https://github.com/eriklindernoren/PyTorch-YOLOv3).  This model was trained to detect maasai villages and animal corrals, individual houses within villages, and villages that have been burned. 
+Archi-Base uses a ResNet-32 model for Image Classification due to its superior classification abilities over standard, “vanilla” neural networks.  Here, the model has been trained to detect whether an image is of a building interior, exteriors, aerial view, or an image containing people in the foreground, or parts of buildings, or building textures. Once learned, our model can classify whether new images belong to any of these class categories and then label and sort them into folders accordingly.
 
 <br>
 
