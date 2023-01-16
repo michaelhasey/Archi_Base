@@ -35,7 +35,8 @@ www.michaelhasey.com/archi_base
 <br>
 
 - [Background](#Background)
-- [Pipeline](#Dataset)
+- [Pipeline](#Pipeline)
+- [Dataset](#Dataset)
 - [Model](#Model)
 - [Performance](#Performance)
 - [References](#References)
@@ -118,7 +119,13 @@ Archi-Base uses a ResNet-32 model for Image Classification due to its superior c
 
 <br>
 
-To run Archi-Base, follow the instructions and steps within the provided notebook in the repo.
+To run train the ResNet-32 model from scratch, follow the instructions and steps within the provided notebook in the repo.
+
+```
+1_models/1_Training_Model.ipynb
+```
+
+To run Archi-Base using a pre-trained model, follow the instructions and steps within the provided notebook in the repo.
 
 ```
 1_models/2_Scraper_Predictor_Model.ipynb
