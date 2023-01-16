@@ -50,15 +50,11 @@ ARCHI_BASE employs a 3-step pipeline that leverages sophisticated AI & ML comput
 2. User identifies what to search for and how many images required, and our system autonomously scrapes multiple online image databases.
 3. The ResNet-32 model classifies each scraped image, labels it and then places it into its corresponding folder.  
 
-Your Image database is now ready to train deep neural networks!
-
-"While a robust 100,000 image dataset would take 330 hours to create manually, Archi_base completes this task in just 16 hours."
-
-Using [labelImg](https://github.com/tzutalin/labelImg), we set bounding boxes around current and former Maasai architectures (villages, corrals, farms, burned villages) before augmenting with color, rotation, and random noise.  
+Your Image database is now ready to train deep neural networks! While a robust 100,000 image dataset would take 330 hours to create manually, Archi_base completes this task in just 16 hours.
 
 <br>
 
-![](images/data.png)
+![](images/steps.png)
 
 ## Model
 
