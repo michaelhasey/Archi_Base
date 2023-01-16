@@ -16,7 +16,7 @@ Archi-Base is an automated tool to create very large datasets of labelled and so
 <br>
 
 ```
-www.michaelhasey.com/maasai-skywatch
+www.michaelhasey.com/archi_base
 ```
 
 ## Table of Contents
@@ -30,21 +30,19 @@ www.michaelhasey.com/maasai-skywatch
 - [References](#References)
 - [Citation](#Citation)
 
+
 ## Background
 
 <br>
 
-A semi-nomadic ethnic group, the Maasai are based in the Great Rift Valley of East Africa, between Northern Tanzania and Southern and Central Kenya.  With a population of almost 2 million, they have inhabited the region for centuries, moving their herds of cattle with the seasons.
+The current method of creating large databases of architectural image data is inadequate and slow. To create a custom image database today, a user must manually search through multiple and scattered image sources, filter through thousands of un-labelled and non-relevant images, download the correct images one by one, and then painstakingly label and sort each image into their corresponding folders to prepare for training.  
 
-Government officials and foreign companies in Tanzania and Kenya are using ecotourism and conservation laws to displace indigenous Maasai people, evicting them and denying them access to watering holes and vital grazing for their livestock.  We use computer vision to provide the Maasai with a tool to quickly identify illegal village burns, forced migrations, & potential land grabs.
 
-The advantage of AI assistance is its speed and accuracy.  While it may take multiple weeks for NGO’s, word of mouth and manual village visits to determine the extent of damage,  a combination of AI and “real time” satellite imagery may help to reduce this time to mere hours or minutes.  By providing quick and accurate counts and metrics of land-based injustices with soon after they occur, Maasai Skywatch’s AI technology can one day provide the robust, unbiased, and hard evidence needed to fight many of these social injustices and protect Maasai livelihood and land for many more generations to come.
-
-In addition to identifying land-based injustices, our model can also identify how many individual houses are located within each village, and thus provide an estimated inhabitant count.  As the Maasai are semi-nomadic and do not have fixed addresses, obtaining population counts is often difficult.  By using deep learning methods such as this, population counts can be acquired more quickly and accurately. 
+Archi-Base solves this problem by providing an online tool that autonomously finds, labels, and sorts architectural images into custom datasets of any size in a fraction of the time.  Instead of taking 30 hours to manually create a 10,000 image dataset, Archi-Base can complete this task in an hour with zero human interaction required. Using this tool, datasets of thousands of currated and labeled images of any architects work, any building type or style and from any location can be rapidly created. 
 
 <br>
 
-![](images/intro_banner2.png)
+![](images/workflow.png)
 
 ## Dataset
 
