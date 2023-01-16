@@ -6,11 +6,6 @@
 
 Archi-Base is an automated tool to create very large datasets of labelled and sorted architectural imagery for computer-vision model training and experiments. 
 
-
-<br>
-
-![](images/intro_image.png)
-
 ## Project Page
 
 <br>
