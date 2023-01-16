@@ -22,7 +22,7 @@ A colab notebook has been provided to recreate the following experiment
 
 ## Project Page
 
-Additional informatil about this project can be found on its project page on my personal website here:
+An expanded description of Archi-Base can be about this project can be found on my personal website here:
 
 <br>
 
