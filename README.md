@@ -119,7 +119,7 @@ Archi-Base uses a ResNet-32 model for Image Classification due to its superior c
 
 <br>
 
-To run train the ResNet-32 model from scratch, follow the instructions and steps within the provided notebook in the repo.
+To train the ResNet-32 model from scratch, follow the instructions and steps within the provided notebook in the repo.
 
 ```
 1_models/1_Training_Model.ipynb
