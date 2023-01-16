@@ -7,6 +7,8 @@
 
 Archi-Base is an automated tool to create very large datasets of labelled and sorted architectural imagery for computer-vision model training and experiments. 
 
+<br>
+
 ## Colab Notebook
 
 <br>
@@ -16,8 +18,11 @@ A colab notebook has been provided to recreate the following experiment
 ```
 1_models/2_Scraper_Predictor_Model.ipynb
 ```
+<br>
 
 ## Project Page
+
+Additional informatil about this project can be found on its project page on my personal website here:
 
 <br>
 
