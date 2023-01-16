@@ -1,9 +1,7 @@
+![](images/logo.png | width=50)
+
+
 # Archi-Base
-
-![](images/logo.png)
-
-
-
 
 
 ## About 
