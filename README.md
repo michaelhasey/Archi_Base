@@ -32,10 +32,9 @@ www.michaelhasey.com/archi_base
 
 <br>
 
-The current method of creating large databases of architectural image data is inadequate and slow. To create a custom image database today, a user must manually search through multiple and scattered image sources, filter through thousands of un-labelled and non-relevant images, download the correct images one by one, and then painstakingly label and sort each image into their corresponding folders to prepare for training.  
+The current method of creating large databases of architectural image data is inadequate and slow. To create a custom image database today, a user must manually search through multiple and scattered image sources, filter through thousands of un-labelled and non-relevant images, download the correct images one by one, and then painstakingly label and sort each image into their corresponding folders to prepare for training. On average, it takes about 1 minute and 50 seconds to manually look for, download, and sort 10 images.  As a result, the manual method would take 30 hours of manual labour to build a robust dataset of 10,000 images for deep neural network training.
 
-
-Archi-Base solves this problem by providing an online tool that autonomously finds, labels, and sorts architectural images into custom datasets of any size in a fraction of the time.  Instead of taking 30 hours to manually create a 10,000 image dataset, Archi-Base can complete this task in an hour with zero human interaction required. Using this tool, datasets of thousands of currated and labeled images of any architects work, any building type or style and from any location can be rapidly created. 
+Archi-Base solves this problem by providing an online tool that autonomously finds, labels, and sorts architectural images according to their class (ex. image of building interior, image of building exterior, aerial image, etc.) and creates custom datasets of any size in a fraction of the time.  Instead of taking 30 hours to manually create a 10,000 image dataset of a particular building type, for instance, of American skyscrapers, Archi-Base can complete this task in an hour with zero human interaction required. Using this tool, datasets of thousands of currated and labeled images of any architects work, any building type or style and from any location can be rapidly created.  This helps to overcome the traditional challenges of dataset creation, and allows researchers and practitioners to devote more time where it is better needed. 
 
 <br>
 
@@ -102,10 +101,10 @@ Archi-Base uses a ResNet-32 model for Image Classification due to its superior c
 
 <br>
 
-To run Archi-Base, follow the instructions and steps within the provided notebook below
+To run Archi-Base, follow the instructions and steps within the provided notebook in the repo.
 
 ```
-2_Scraper_Predictor_Model.ipynb
+1_models/2_Scraper_Predictor_Model.ipynb
 ```
 <br>
 
