@@ -55,6 +55,7 @@ Archi-Base uses a 2-step pipeline to create large architectural image datasets.
 While a robust 100,000 image dataset would take 330 hours to create manually, Archi_base completes this task in just 16 hours.
 
 <br>
+<br>
 
 ![](images/steps.png)
 
@@ -66,17 +67,19 @@ Archi-Base uses a ResNet-32 model for Image Classification due to its superior c
 
 <br>
 
-For model training, follow the instructions and steps within the provided notebook below
+To run Archi-Base, follow the instructions and steps within the provided notebook below
 
 ```
-maasai-village-notebook.ipynb
+2_Scraper_Predictor_Model.ipynb
 ```
 
 ## Performance
 
 <br>
 
-After training our YoloV3 object detection model, we evaluated its performance by testing it on a series of new images it has never been exposed to before.  These images contained unlabelled Maasai villages, burned villages, and corrals for animals set in a variety of landscapes and contexts.   As indicated below, our trained model properly identified and label these objects and instances with a high degree of accuracy. 
+See below to see performance based benchmarks comparing the time in which it takes Archi-Base to build large image datasets vs. manually creating a similarly-sized dataset by hand.
+
+![](images/performance.png)
 
 <br>
 
