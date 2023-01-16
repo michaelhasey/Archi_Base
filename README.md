@@ -1,4 +1,4 @@
-![](images/logo.png|width=50)
+![](images/logo.png){: width="50%"}
 
 
 # Archi-Base
