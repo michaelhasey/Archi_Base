@@ -1,6 +1,5 @@
-![](images/logo.png){:height="20%" width="20%}
 
-
+<img src="images/logo.png" width="324" height="324">
 # Archi-Base
 
 
