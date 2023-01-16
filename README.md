@@ -79,7 +79,7 @@ To run Archi-Base, follow the instructions and steps within the provided noteboo
 
 See below to see performance based benchmarks comparing the time in which it takes Archi-Base to build large image datasets vs. manually creating a similarly-sized dataset by hand.
 
-![](images/performance.png)
+![](images/stats_2.png)
 
 <br>
 
