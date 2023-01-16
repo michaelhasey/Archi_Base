@@ -61,6 +61,37 @@ While a robust 100,000 image dataset would take 330 hours to create manually, Ar
 
 <br>
 
+## Dataset
+
+To train the Resnet-32 model to correctly classify,label and sort architectural imagery accordingo to their class, the following images were used as training data.
+
+```
+2_data/aerial
+2_data/closeup
+2_data/drawings
+2_data/interior
+2_data/people
+2_data/posters_books
+2_data/street
+2_data/texture
+```
+
+- 2000 images of architectural related subjects
+
+    - zaha hadid building images
+        - 300 street view images
+        - 300 interio view images
+        - 300 aerial view images
+        - 300 close-up view images
+        - 300 architectural texture images
+
+    - miscellaneous images
+        - 200 books / posters images
+        - 100 people images
+        - 200 drawings / sketches images
+
+<br>
+
 ## Model
 
 Archi-Base uses a ResNet-32 model for Image Classification due to its superior classification abilities over standard, “vanilla” neural networks.  Here, the model has been trained to detect whether an image is of a building interior, exteriors, aerial view, or an image containing people in the foreground, or parts of buildings, or building textures. Once learned, our model can classify whether new images belong to any of these class categories and then label and sort them into folders accordingly.
@@ -79,21 +110,11 @@ To run Archi-Base, follow the instructions and steps within the provided noteboo
 
 See below to see performance based benchmarks comparing the time in which it takes Archi-Base to build large image datasets vs. manually creating a similarly-sized dataset by hand.
 
+<br>
+
 ![](images/stats_2.png)
 
 <br>
-
-![](images/object_detection_types.png)
-
-## Proposed GUI
-
-<br>
-
-A proposed user facing GUI to detect land-based injustices against the Maasai is shown below.  This would allow users to monitor, detect and analyze various land based injustices (village burns, fenced land which may indicate illage land grabs, and forced evictions, etc) as well as conduct population counts and tracking.  
-
-<br>
-
-![](images/gui.png)
 
 ## References
 
