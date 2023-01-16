@@ -63,6 +63,8 @@ While a robust 100,000 image dataset would take 330 hours to create manually, Ar
 
 ## Dataset
 
+<br>
+
 To train the Resnet-32 model to correctly classify,label and sort architectural imagery accordingo to their class, the following images were used as training data.
 
 ```
@@ -94,6 +96,8 @@ To train the Resnet-32 model to correctly classify,label and sort architectural 
 
 ## Model
 
+<br>
+
 Archi-Base uses a ResNet-32 model for Image Classification due to its superior classification abilities over standard, “vanilla” neural networks.  Here, the model has been trained to detect whether an image is of a building interior, exteriors, aerial view, or an image containing people in the foreground, or parts of buildings, or building textures. Once learned, our model can classify whether new images belong to any of these class categories and then label and sort them into folders accordingly.
 
 <br>
@@ -103,6 +107,7 @@ To run Archi-Base, follow the instructions and steps within the provided noteboo
 ```
 2_Scraper_Predictor_Model.ipynb
 ```
+<br>
 
 ## Performance
 
