@@ -1,5 +1,5 @@
 
-<img src="images/logo.png" width="324" height="324">
+<img src="images/logo.png" width="50%" height="50%">
 # Archi-Base
 
 
